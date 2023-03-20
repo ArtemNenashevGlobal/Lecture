@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Location
-        run: Get Location
+        run: Get-Location
       - name: DirectoryPS
         run: pwd
         shell: bash
